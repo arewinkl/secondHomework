@@ -1,0 +1,63 @@
+
+/* this code is for the background color for all of the pages even if the content is blocking it from being shown. */
+body {
+    background-color: rgb(235, 222, 205);
+  }
+  /* this h1 tag contains all of the details for the nav bar atributes. */
+  h1 {
+      font-family:cursive;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+    font-variant: small-caps;
+    
+    color:rgba(177, 163, 82, 0.767);
+  }
+
+  /* this code is for the jumbotron elemt that yuo placed on the bio page with your photo inside. */
+  .jumbotron{
+      background-image:src=("assets/images/golds.jpg");
+      background-size:contain;
+  }
+
+  /* this code is extra important it has the designation for box shadow which helped to make the contact form really pop!! */
+ .Contact-form{
+     background:rgba(48, 46, 46, 0.6);
+    color:white;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 6px rgb(22, 150, 209);
+    }
+/* this section shows the responsive boxs that will one day be replaced with examples of works and projects that you have completed for your portfolio. */
+section {
+     margin:0 auto;
+     width: 40%;
+     padding-bottom: 20px;
+        
+    }
+ #web-one {
+    position: relative;
+    height: 250px;
+    background-color: grey;
+        
+        }
+ #web-two {
+    position: relative;
+     height:250px;
+     background-color: rgb(141, 69, 69);
+        }
+#web-three {
+    position: relative;
+     height:250px;
+     background-color: rgb(92, 196, 164);
+        }
+ #web-four {
+    position: relative;
+    height:250px;
+    background-color: rgb(64, 36, 221);
+        }
+        /* this code was simply for the image and how it fit to the element that it was contained within. */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

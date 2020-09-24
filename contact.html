@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--this link to the css stylesheet is where all the javascript is located-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+   
+
+</head>
+
+<body>
+    <!--this is for the navigation menu in the website, that also contains the links to the other pages-->
+    <div class="card text-center">
+        <div class="card-header">
+            <h1>Alec Rewinkel</h1>
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--contact form and discription of how they can contact me-->
+        <div class="card-body">
+          <h2 class="card-title">Contact</h2>
+          <p class="card-text">If you would like to find out more about my work experience, including the projects in my portfolio please fill out the contact form below!</p>
+          
+        </div>
+    </div>
+    <!--Contains the special contact form, and allows for user input-->
+    <div class="container Contact-form">
+        <h2>Contact form</h2>
+        <hr>
+
+        <div class="col-md-6">
+            <address>1234 Denver CO</address>
+            <p>Email:- test@email.com</p>
+            <p>Phone:- 123456789</p>
+        </div>
+        <div class="col-md-6"></div>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" class="form-control">
+            </div>
+<!--example of the form group that allows space for a response to be added.-->
+            <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" rows="5"></textarea>
+            </div>
+<!--Button isnt active at the moment, and will need to be activated for form submissions in the future.-->
+            <div class="form-group">
+                <button class="btn btn-primary btn-block">Send</button>
+            </div>
+        </div>
+    </div>
+      
+</body>
+</html>

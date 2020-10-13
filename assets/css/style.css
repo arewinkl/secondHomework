@@ -61,3 +61,7 @@ section {
     max-width: 100%;
     height: auto;
 }
+
+.linked {
+    text-align: center;
+}
